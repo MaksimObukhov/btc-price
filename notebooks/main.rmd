@@ -1,0 +1,20 @@
+---
+title: "R Notebook"
+output: html_document
+---
+
+H0: bitcoin price doesn't depend neither on financial nor macroeconomic factors.
+H1: bitcoin price depends more on financial factors.
+H2: bitcoin price depends more on macroeconomic factors.
+H3: bitcoin price equally depends on both financial and macroeconomic factors.
+
+```{r}
+df <- read.csv("data/df_week.csv")[, -1]
+```
+
+```{r}
+colnames(df)
+```
+```{r}
+
+```
